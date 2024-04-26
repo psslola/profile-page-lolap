@@ -1,0 +1,132 @@
+body {
+    text-align : center;
+    background-color : #eabcc4;
+    font-size : 18px;
+    /* font-family; "Raleway",sans serif
+*/
+    color: black 
+}
+
+#introduction p {
+    margin-bottom: 10px; 
+}
+
+h1 {
+    font-size: 48px;
+    color: rgb(242, 173, 69) 
+}
+
+h2 {
+    font-size: 28px;
+    color: #0e2c1b;
+}
+
+h1,h2 {
+    font-family:"Oswald", sans serif;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #0e2c1b;
+    color: white;
+    text-align : center;
+}
+
+#mon-btn{
+    transition: 0.5;
+    display: inline-block;
+}   
+
+#mon-btn:hover{
+    transform:scale(1.5)
+}  
+
+.card-yellow {
+    background-color: #FFFFE0;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(127, 240, 240, 0.664);
+    margin: 40px 0;
+    padding: 40px;
+    text-align: center;
+}
+
+.card-green {
+    background-color: #B0F2B6;
+    color: #0e2c1b;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(140, 242, 89, 0.84);
+    margin: 40px 0;
+    padding: 40px;
+    text-align: center;
+}
+
+.img-circle{
+    border-radius: 40%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.img-round{
+    border-radius: 20%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.container{
+    width: 700px;
+    margin: 20px auto;
+}
+
+.btn-orange{
+    color: white;
+    background-color: rgb(242, 173, 69);
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 15px 25px;
+    font-weight: 600;
+    font-family: "Raleway", sans serif;
+    display: inline-block;
+}
+.btn-blue{
+    color: rgb(1, 1, 1);
+    background-color: rgb(141, 214, 239);
+    border-radius: 4px;
+    margin: 5px 0;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-family: "Raleway", sans serif;
+    font-size : 10px;
+    text-align: right;
+}
+
+
+.list-travel{
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-travel li{
+    display: inline;
+}
+
+.list-travel li i{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin: 0 5px;
+}
+
+.list-travel li i:hover{
+    opacity: 0.6;
+}
+
+.card-yellow div, .card-green div {
+    width: 100%;
+    text-align: right;
+}
+
